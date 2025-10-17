@@ -7,7 +7,7 @@ import flowRight from "../src/hoc";
 import MainScreen from "../src/screens/MainScreen";
 import WelcomeScreen from "../src/screens/WelcomeScreen";
 
-const GEMINI_API_KEY = "AIzaSyADY1FMtiz8q9R9jfvzNEHEuaNIMbCzhR4";
+const GEMINI_API_KEY = "your_key";
 const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${GEMINI_API_KEY}`;
 
 const MainScreenContainer = flowRight(
